@@ -78,12 +78,19 @@
                    <version>2.1.0</version>
                    <scope>runtime</scope>
                  </dependency>
-                 <dependency>
-                    <groupId>com.github.res-chat</groupId>
-                    <artifactId>reschat-sdk-distro</artifactId>
-                    <version>1.0.0</version>
-                    <type>aar</type>
-                    <scope>runtime</scope>
-                </dependency>
                </dependencies>
+   <build>
+        <plugins>
+            <!-- Maven plugin configuration to publish the .aar file -->
+            <plugin>
+                <groupId>com.jayway.maven.plugins.android.generation2</groupId>
+                <artifactId>android-maven-plugin</artifactId>
+                <version>4.3.0</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <aar>true</aar>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
              </project>
