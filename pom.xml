@@ -6,7 +6,7 @@
              <modelVersion>4.0.0</modelVersion>
                <groupId>com.github.res-chat</groupId>
                <artifactId>reschat-sdk-distro</artifactId>
-               <version>1.0.7</version>
+               <version>1.0.0</version>
                <packaging>pom</packaging>
                <repositories>
                        <repository>
@@ -78,5 +78,12 @@
                    <version>2.1.0</version>
                    <scope>runtime</scope>
                  </dependency>
+                 <dependency>
+                    <groupId>com.github.res-chat</groupId>
+                    <artifactId>reschat-sdk-distro</artifactId>
+                    <version>1.0.0</version>
+                    <type>aar</type>
+                    <scope>runtime</scope>
+                </dependency>
                </dependencies>
              </project>
