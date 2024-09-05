@@ -5,8 +5,8 @@
 <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.res-chat</groupId>
   <artifactId>reschat-sdk-distro</artifactId>
-  <version>1.0.1</version>
-  <packaging>aar</packaging>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
   <name>res-chat/reschat-sdk-distro</name>
   <url>https://github.com/res-chat/reschat-sdk-distro</url>
   <inceptionYear>2024</inceptionYear>
