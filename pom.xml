@@ -6,7 +6,7 @@
              <modelVersion>4.0.0</modelVersion>
                <groupId>com.github.res-chat</groupId>
                <artifactId>reschat-sdk-distro</artifactId>
-               <version>1.0.4</version>
+               <version>1.0.0</version>
                <repositories>
                        <repository>
                            <id>google</id>
@@ -22,7 +22,7 @@
                    <dependency>
                      <groupId>androidx.compose</groupId>
                      <artifactId>compose-bom</artifactId>
-                     <version>1.6.8</version>
+                     <version>2024.08.00</version>
                      <type>pom</type>
                      <scope>import</scope>
                    </dependency>
